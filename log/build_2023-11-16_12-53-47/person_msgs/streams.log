@@ -1,0 +1,34 @@
+[0.350s] Invoking command in '/home/u22c1001/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=/home/u22c1001/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake /home/u22c1001/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/u22c1001/ros2_ws/install/person_msgs
+[0.681s] -- The C compiler identification is GNU 9.4.0
+[0.966s] -- The CXX compiler identification is GNU 9.4.0
+[1.068s] -- Check for working C compiler: /usr/bin/cc
+[1.168s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.170s] -- Detecting C compiler ABI info
+[1.275s] -- Detecting C compiler ABI info - done
+[1.284s] -- Detecting C compile features
+[1.285s] -- Detecting C compile features - done
+[1.289s] -- Check for working CXX compiler: /usr/bin/c++
+[1.386s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.387s] -- Detecting CXX compiler ABI info
+[1.491s] -- Detecting CXX compiler ABI info - done
+[1.500s] -- Detecting CXX compile features
+[1.500s] -- Detecting CXX compile features - done
+[1.507s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.535s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.535s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.699s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.770s] CMake Error at CMakeLists.txt:35 (find_package):
+[1.770s]   Syntax error in cmake code at
+[1.770s] 
+[1.770s]     /home/u22c1001/ros2_ws/src/person_msgs/CMakeLists.txt:35
+[1.770s] 
+[1.770s]   when parsing string
+[1.770s] 
+[1.770s]     rosidl_default\generators
+[1.770s] 
+[1.770s]   Invalid character escape '\g'.
+[1.770s] 
+[1.770s] 
+[1.770s] -- Configuring incomplete, errors occurred!
+[1.770s] See also "/home/u22c1001/ros2_ws/build/person_msgs/CMakeFiles/CMakeOutput.log".
+[1.773s] Invoked command in '/home/u22c1001/ros2_ws/build/person_msgs' returned '1': CMAKE_PREFIX_PATH=/home/u22c1001/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake /home/u22c1001/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/u22c1001/ros2_ws/install/person_msgs

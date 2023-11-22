@@ -1,0 +1,2 @@
+Invoking command in '/home/u22c1001/ros2_ws/build/person_mags': CMAKE_PREFIX_PATH=/home/u22c1001/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake /home/u22c1001/ros2_ws/src/person_mags -DCMAKE_INSTALL_PREFIX=/home/u22c1001/ros2_ws/install/person_mags
+Invoked command in '/home/u22c1001/ros2_ws/build/person_mags' returned '1': CMAKE_PREFIX_PATH=/home/u22c1001/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake /home/u22c1001/ros2_ws/src/person_mags -DCMAKE_INSTALL_PREFIX=/home/u22c1001/ros2_ws/install/person_mags

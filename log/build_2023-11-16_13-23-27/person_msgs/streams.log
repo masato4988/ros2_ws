@@ -1,0 +1,20 @@
+[0.351s] Invoking command in '/home/u22c1001/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=/home/u22c1001/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake /home/u22c1001/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/u22c1001/ros2_ws/install/person_msgs
+[0.359s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.380s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.380s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.545s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.546s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.550s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.908s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.941s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.024s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[3.024s]   Packages installing interfaces must include
+[3.024s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[3.024s]   package.xml
+[3.024s] Call Stack (most recent call first):
+[3.024s]   CMakeLists.txt:21 (rosidl_generate_interfaces)
+[3.024s] 
+[3.025s] 
+[3.025s] -- Configuring incomplete, errors occurred!
+[3.025s] See also "/home/u22c1001/ros2_ws/build/person_msgs/CMakeFiles/CMakeOutput.log".
+[3.029s] Invoked command in '/home/u22c1001/ros2_ws/build/person_msgs' returned '1': CMAKE_PREFIX_PATH=/home/u22c1001/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake /home/u22c1001/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/u22c1001/ros2_ws/install/person_msgs

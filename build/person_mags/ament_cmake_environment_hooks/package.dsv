@@ -1,0 +1,4 @@
+source;share/person_mags/local_setup.bash
+source;share/person_mags/local_setup.dsv
+source;share/person_mags/local_setup.sh
+source;share/person_mags/local_setup.zsh

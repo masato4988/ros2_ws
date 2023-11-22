@@ -1,0 +1,6 @@
+{
+  "package_name": "person_mags",
+  "non_idl_tuples": [
+    "/home/u22c1001/ros2_ws/src/person_mags:msg/Person.msg"
+  ]
+}

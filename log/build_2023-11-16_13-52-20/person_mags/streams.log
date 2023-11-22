@@ -1,0 +1,25 @@
+[0.347s] Invoking command in '/home/u22c1001/ros2_ws/build/person_mags': CMAKE_PREFIX_PATH=/home/u22c1001/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake /home/u22c1001/ros2_ws/src/person_mags -DCMAKE_INSTALL_PREFIX=/home/u22c1001/ros2_ws/install/person_mags
+[0.514s] -- The C compiler identification is GNU 9.4.0
+[0.754s] -- The CXX compiler identification is GNU 9.4.0
+[0.880s] -- Check for working C compiler: /usr/bin/cc
+[1.009s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.009s] -- Detecting C compiler ABI info
+[1.115s] -- Detecting C compiler ABI info - done
+[1.124s] -- Detecting C compile features
+[1.125s] -- Detecting C compile features - done
+[1.126s] -- Check for working CXX compiler: /usr/bin/c++
+[1.234s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.235s] -- Detecting CXX compiler ABI info
+[1.332s] -- Detecting CXX compiler ABI info - done
+[1.342s] -- Detecting CXX compile features
+[1.342s] -- Detecting CXX compile features - done
+[1.344s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.361s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.361s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.491s] CMake Error at CMakeLists.txt:20 (gine_package):
+[1.491s]   Unknown CMake command "gine_package".
+[1.491s] 
+[1.491s] 
+[1.491s] -- Configuring incomplete, errors occurred!
+[1.491s] See also "/home/u22c1001/ros2_ws/build/person_mags/CMakeFiles/CMakeOutput.log".
+[1.494s] Invoked command in '/home/u22c1001/ros2_ws/build/person_mags' returned '1': CMAKE_PREFIX_PATH=/home/u22c1001/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake /home/u22c1001/ros2_ws/src/person_mags -DCMAKE_INSTALL_PREFIX=/home/u22c1001/ros2_ws/install/person_mags

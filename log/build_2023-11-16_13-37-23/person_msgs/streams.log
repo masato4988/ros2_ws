@@ -1,0 +1,58 @@
+[0.351s] Invoking command in '/home/u22c1001/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=/home/u22c1001/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake --build /home/u22c1001/ros2_ws/build/person_msgs -- -j8 -l8
+[0.366s] CMake Warning (dev) in CMakeLists.txt:
+[0.366s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.366s]   contain a literal, direct call to the project() command.  Add a line of
+[0.366s]   code such as
+[0.366s] 
+[0.367s]     project(ProjectName)
+[0.367s] 
+[0.367s]   near the top of the file, but after cmake_minimum_required().
+[0.367s] 
+[0.367s]   CMake is pretending there is a "project(Project)" command on the first
+[0.367s]   line.
+[0.367s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.367s] 
+[0.373s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.393s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.543s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.543s] CMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.544s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[0.544s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[0.544s]   set the policy and suppress this warning.
+[0.544s] 
+[0.544s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[0.544s]   Since the policy is not set the OLD behavior will be used.
+[0.544s] Call Stack (most recent call first):
+[0.544s]   /opt/ros/foxy/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake:51 (list_append_unique)
+[0.545s]   /opt/ros/foxy/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:5 (ament_index_get_resources)
+[0.545s]   /opt/ros/foxy/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+[0.545s]   CMakeLists.txt:10 (find_package)
+[0.545s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.545s] 
+[0.545s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.545s]   if given arguments:
+[0.545s] 
+[0.546s]     "NOT" "element" "IN_LIST" "paths_to_search"
+[0.546s] 
+[0.546s]   Unknown arguments specified
+[0.546s] Call Stack (most recent call first):
+[0.546s]   /opt/ros/foxy/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake:51 (list_append_unique)
+[0.546s]   /opt/ros/foxy/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:5 (ament_index_get_resources)
+[0.546s]   /opt/ros/foxy/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+[0.546s]   CMakeLists.txt:10 (find_package)
+[0.547s] 
+[0.547s] 
+[0.548s] CMake Warning (dev) in CMakeLists.txt:
+[0.548s]   No cmake_minimum_required command is present.  A line of code such as
+[0.548s] 
+[0.549s]     cmake_minimum_required(VERSION 3.16)
+[0.550s] 
+[0.550s]   should be added at the top of the file.  The version specified may be lower
+[0.550s]   if you wish to support older CMake versions for this project.  For more
+[0.551s]   information run "cmake --help-policy CMP0000".
+[0.551s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.553s] 
+[0.554s] -- Configuring incomplete, errors occurred!
+[0.554s] See also "/home/u22c1001/ros2_ws/build/person_msgs/CMakeFiles/CMakeOutput.log".
+[0.554s] make: *** [Makefile:748: cmake_check_build_system] エラー 1
+[0.554s] Invoked command in '/home/u22c1001/ros2_ws/build/person_msgs' returned '2': CMAKE_PREFIX_PATH=/home/u22c1001/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake --build /home/u22c1001/ros2_ws/build/person_msgs -- -j8 -l8

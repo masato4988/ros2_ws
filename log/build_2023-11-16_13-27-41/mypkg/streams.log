@@ -1,0 +1,23 @@
+[0.893s] Invoking command in '/home/u22c1001/ros2_ws/src/mypkg': PYTHONPATH=/home/u22c1001/ros2_ws/build/mypkg/prefix_override:/home/u22c1001/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/u22c1001/ros2_ws/build/mypkg/build install --record /home/u22c1001/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[1.080s] running egg_info
+[1.082s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[1.082s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.082s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[1.082s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[1.082s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[1.103s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.104s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.104s] running build
+[1.104s] running build_py
+[1.104s] running install
+[1.105s] running install_lib
+[1.106s] byte-compiling /home/u22c1001/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc
+[1.107s] running install_data
+[1.107s] Sorry: IndentationError: unindent does not match any outer indentation level (listener.py, line 13)
+[1.107s] running install_egg_info
+[1.109s] removing '/home/u22c1001/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.109s] Copying ../../build/mypkg/mypkg.egg-info to /home/u22c1001/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[1.109s] running install_scripts
+[1.124s] Installing talker script to /home/u22c1001/ros2_ws/install/mypkg/lib/mypkg
+[1.124s] writing list of installed files to '/home/u22c1001/ros2_ws/build/mypkg/install.log'
+[1.140s] Invoked command in '/home/u22c1001/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/u22c1001/ros2_ws/build/mypkg/prefix_override:/home/u22c1001/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/u22c1001/ros2_ws/build/mypkg/build install --record /home/u22c1001/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed

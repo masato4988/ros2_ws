@@ -1,0 +1,21 @@
+[0.627s] Invoking command in '/home/u22c1001/ros2_ws/src/mypkg': PYTHONPATH=/home/u22c1001/ros2_ws/build/mypkg/prefix_override:/home/u22c1001/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/u22c1001/ros2_ws/build/mypkg/build install --record /home/u22c1001/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[0.762s] running egg_info
+[0.763s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[0.763s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.763s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[0.763s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[0.763s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[0.789s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.790s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.790s] running build
+[0.790s] running build_py
+[0.790s] running install
+[0.790s] running install_lib
+[0.791s] running install_data
+[0.791s] running install_egg_info
+[0.793s] removing '/home/u22c1001/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.793s] Copying ../../build/mypkg/mypkg.egg-info to /home/u22c1001/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[0.793s] running install_scripts
+[0.806s] Installing talker script to /home/u22c1001/ros2_ws/install/mypkg/lib/mypkg
+[0.806s] writing list of installed files to '/home/u22c1001/ros2_ws/build/mypkg/install.log'
+[0.819s] Invoked command in '/home/u22c1001/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/u22c1001/ros2_ws/build/mypkg/prefix_override:/home/u22c1001/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/u22c1001/ros2_ws/build/mypkg/build install --record /home/u22c1001/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed

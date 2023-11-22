@@ -1,0 +1,4 @@
+CMake Error at CMakeLists.txt:20 (gine_package):
+  Unknown CMake command "gine_package".
+
+
